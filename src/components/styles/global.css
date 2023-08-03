@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Dosis ExtraBold';
+    src: url(../../assets/static/Dosis-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'Dosis Medium';
+    src: url(../../assets/static/Dosis-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Dosis Light';
+    src: url(../../assets/static/Dosis-Light.ttf);
+}
+
+.main-yellow {
+    background-color: #DEA553;
+}
+
+.text-white{
+    color: white;
+}
+
+.kumpas-logo-text{
+    font-family: 'Dosis ExtraBold';
+    font-size: 2em;
+    color: white;
+}
+
+.logo-small{
+    margin-right: 10px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.hero-container {
+    background: url(../../assets/blue-weave-bg.png);
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.hero-title{
+    font-family: 'Dosis ExtraBold';
+}
+
+.text-regular{
+    font-family: 'Dosis Medium';
+}
+
+.text-light{
+    font-family: 'Dosis Light';
+}
+
+.main-btn{
+    background-color: #DEA553;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-family: 'Dosis ExtraBold';
+    font-size: 1em;
+    width: 75%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+
+.main-btn:hover{
+    background-color: #DEA553;
+    color: #091942;
+}
+
+.sub-btn{
+    background: #293961;
+    color: white;
+    border: 1.5px solid #091942; 
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-family: 'Dosis ExtraBold';
+    font-size: 1em;
+    width: 75%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);  
+}
+
+.sub-btn:hover{
+    background-color: #293961;
+    color: #DEA553;
+    border: 1.5px solid #091942; 
+}
+
+@media (max-width: 1000px) {
+
+    .on-collapse-hide{
+        display: none;
+    }
+}
