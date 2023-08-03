@@ -36,7 +36,10 @@ const Hero = () => {
             <Button className="mt-3 sub-btn">About us</Button>
           </div>
         </div>
-        <img src={uiDisplay} width={550} />
+        <div className={`d-flex flex-column justify-content-center ${screenWidth < 1200 ? "align-items-center" : ""}`}>
+          <img src={uiDisplay} width={550} />
+
+        </div>
       </div>
     </div>
   );
